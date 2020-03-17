@@ -1,1 +1,37 @@
-// Nothing here. Just use the default theme.
+/* FONT */
+$su-webfonts-path: "https://www.su.se/webb2021/fonts/su-webfonts/";
+
+@font-face {
+    font-family: 'TheSansB2-Light';
+    src:  url('#{$su-webfonts-path}/TheSansB2-3_Light.woff2') format('woff2'),
+    url('#{$su-webfonts-path}/TheSansB2-3_Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TheSansB2-Plain';
+    src:  url('#{$su-webfonts-path}/TheSansB2-5_Plain.woff2') format('woff2'),
+    url('#{$su-webfonts-path}/TheSansB2-5_Plain.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TheSansC5-SemiBoldWeb';
+    src:  url('#{$su-webfonts-path}/TheSansC5-6_SemiBold.woff2') format('woff2'),
+    url('#{$su-webfonts-path}/TheSansC5-6_SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TheSansB2-Bold';
+    src:  url('#{$su-webfonts-path}/TheSansB2-7_Bold.woff2') format('woff2'),
+    url('#{$su-webfonts-path}/TheSansB2-7_Bold.woff') format('woff');
+}
+
+$mdc-typography-font-family: "TheSansB2-Light",Verdana,sans-serif;
+@import "@material/typography/mdc-typography";
+
+
+/* background color: */
+
+.smui-top-app-bar--static,
+.smui-fab--color-primary{
+    background-color: #002f5f !important;
+}

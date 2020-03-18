@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>WireGuard VPN</title>
+  <title>Stockholm University VPN</title>
 </svelte:head>
 
 <script>

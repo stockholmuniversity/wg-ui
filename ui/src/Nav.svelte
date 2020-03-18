@@ -19,7 +19,7 @@
 <TopAppBar variant="static" color="primary">
   <Row>
     <Section>
-      <Title>WireGuard VPN</Title>
+      <Title>Stockholm University VPN</Title>
     </Section>
     <Section align="end" toolbar>
       <small class="user">Logged in as {user}</small>

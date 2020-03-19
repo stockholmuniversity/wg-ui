@@ -88,6 +88,11 @@ padding: 0;
         <li>Download the configuration (or use the QR-code on a mobile device)</li>
         <li>Start Wireguard, add the configuration and activate the tunnel</li>
       </ol>
+    <div class="col help">
+        <a href="https://serviceportalen.su.se/sv-se/article/1319269" target="_blank">
+        <h4>More instructions and FAQ</h4>
+        </a>
+    </div>
     </div>
   </div>
 

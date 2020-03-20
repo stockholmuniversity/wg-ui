@@ -92,6 +92,7 @@ padding: 0;
         <a href="https://serviceportalen.su.se/sv-se/article/1319269" target="_blank">
         <h4>More instructions and FAQ</h4>
         </a>
+        Make sure to create a config for each device (computer, phone, etc). Do not reuse configuration for multiple devices.<br/>
     </div>
     </div>
   </div>

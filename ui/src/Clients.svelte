@@ -83,15 +83,12 @@ padding: 0;
     <div class="col help">
       <h3>Instructions</h3>
       <ol>
-        <li><a href="https://www.wireguard.com/install/" target="_blank">Install WireGuard (opens in a new tab)</a></li>
+        <li><a href="https://serviceportalen.su.se/sv-se/article/1319269" target="_blank">Install WireGuard (opens in a new tab)</a></li>
         <li>Create the configuration by hitting the button in the bottom right hand corner</li>
         <li>Download the configuration (or use the QR-code on a mobile device)</li>
         <li>Start Wireguard, add the configuration and activate the tunnel</li>
       </ol>
     <div class="col help">
-        <a href="https://serviceportalen.su.se/sv-se/article/1319269" target="_blank">
-        <h4>More instructions and FAQ</h4>
-        </a>
         Make sure to create a config for each device (computer, phone, etc). Do not reuse configuration for multiple devices.<br/>
     </div>
     </div>

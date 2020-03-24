@@ -22,7 +22,7 @@ h1 {
 
 </style>
 
-<h1>Användarvilkor</h1>
+<h1>Användarvillkor</h1>
 
 <p>
     För att använda vpn-tjänsten krävs att anslutna datorer skall ägas och förvaltas av universitetet i enlighet med rådande föreskrifter (t.ex. att den är är knuten till den centrala antivirus- och inventeringstjänsten). Det innebär att privata datorer inte godkänns för användning utom i undantagsfall under en övergångsperiod, då särskilda skäl föreligger.

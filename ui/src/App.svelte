@@ -9,6 +9,8 @@
   import Clients from "./Clients.svelte";
   import EditClient from "./EditClient.svelte";
   import Nav from "./Nav.svelte";
+  import PopupLong from './PopupLong.svelte';
+  import Modal from './Modal.svelte';
 
   import Cookie from "cookie-universal";
   const cookies = Cookie();
@@ -57,4 +59,9 @@ footer {
       Copyright &copy; 2019 <a href="https://embark-studios.com">Embark Studios</a>.
     </p>
   </footer>
+
+<!-- Disclaimer modal -->
+  <Modal>
+    <Clients />
+  </Modal>
 </div>

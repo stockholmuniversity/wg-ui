@@ -3,9 +3,9 @@
   import { fade } from 'svelte/transition';
 
   export let key = 'simple-modal';
-  export let closeButton = true;
-  export let closeOnEsc = true;
-  export let closeOnOuterClick = true;
+  export let closeButton = false;
+  export let closeOnEsc = false;
+  export let closeOnOuterClick = false;
   export let styleBg = { top: 0, left: 0 };
   export let styleWindow = {};
   export let styleContent = {};

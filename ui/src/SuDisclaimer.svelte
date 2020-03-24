@@ -1,5 +1,17 @@
 <script>
-    export let message;
+    import { getContext } from 'svelte';
+
+    const { close } = getContext('simple-modal');
+
+    function _onCancel() {
+        window.location.href = "https://su.se";
+    }
+
+    function _onOk() {
+        close();
+    }
+
+
 </script>
 
 <style>
@@ -24,3 +36,9 @@ h2 {
 <p>
     Samma krav för uppdateringar av operativsystem och virusskydd gäller för privata datorer som för universitetes arbetsstationer. Användning av vpn-tjänsten på privata mobila enheter godkänns dock under förutsättning att de har ett uppdaterat operativsystem.
 </p>
+<button on:click={_onOk}>
+    Jag accepterar
+</button>
+<button on:click={_onCancel}>
+    Avbryt
+</button>

@@ -13,10 +13,10 @@ h2 {
 }
 </style>
 
-<h1>{message}</h1>
+<h1>Användarvilkor</h1>
 
 <p>
-    För att använda vpn-tjänsten krävs att anslutna datorer skall ägas och förvaltas av universitetet i enlighet med rådande föreskrifter (t.ex. att den är är knuten till den centrala antivirus- och inventeringstjänsten). Det innebär att privata datorer inte godkänns föranvändning utom i undantagsfall under en övergångsperiod, då särskilda skäl föreligger.
+    För att använda vpn-tjänsten krävs att anslutna datorer skall ägas och förvaltas av universitetet i enlighet med rådande föreskrifter (t.ex. att den är är knuten till den centrala antivirus- och inventeringstjänsten). Det innebär att privata datorer inte godkänns för användning utom i undantagsfall under en övergångsperiod, då särskilda skäl föreligger.
 </p>
 <p>
     Ett absolut krav är att alla enheter skall ha ett uppdaterat operativsystem, samt ett uppdaterat virusskydd där det är tillämpligt. För att få ansluta en privat dator till vpn-tjänsten krävs dispens enligt ansökan från avdelningschef/prefekt till IT-avdelningen. Ett sådanat skäl kan t.ex. vara att du inte har en bärbar dator som arbetsstation på jobbet. Undantagen gäller fram till den 15 april, därefter måste ansökan förnyas.

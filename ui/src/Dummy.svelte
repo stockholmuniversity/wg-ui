@@ -5,7 +5,6 @@
     import { getContext } from 'svelte';
     const { open } = getContext('simple-modal');
 
-    export let user;
 
     onMount(() => {
         showDisclaimer();

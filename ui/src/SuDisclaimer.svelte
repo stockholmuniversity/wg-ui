@@ -20,9 +20,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font-size: 1.25rem;
-}
 </style>
 
 <h1>Användarvilkor</h1>

@@ -1,7 +1,12 @@
+
+
 <script>
+    import SuDisclaimer from "./SuDisclaimer.svelte";
+  import { getContext } from 'svelte';
   import Fab, {Label, Icon} from '@smui/fab';
   import { onMount } from 'svelte';
 	import Client from './Client.svelte';
+  const { open } = getContext('simple-modal');
 
   export let user;
 
@@ -33,7 +38,14 @@
   }
 
 
-	onMount(getClients);
+  onMount(() => {
+    getClients();
+    showDisclaimer();
+    });
+
+  const showDisclaimer = () => {
+    open(SuDisclaimer, { message: "Viktigt meddelande" });
+  };
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 
 
 <script>
-    import PopupLong from "./PopupLong.svelte";
+    import SuDisclaimer from "./SuDisclaimer.svelte";
   import { getContext } from 'svelte';
   import Fab, {Label, Icon} from '@smui/fab';
   import { onMount } from 'svelte';
@@ -44,7 +44,7 @@
     });
 
   const showDisclaimer = () => {
-    open(PopupLong, { message: "Viktigt meddelande" });
+    open(SuDisclaimer, { message: "Viktigt meddelande" });
   };
 </script>
 

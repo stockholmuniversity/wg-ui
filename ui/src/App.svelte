@@ -9,7 +9,7 @@
   import Clients from "./Clients.svelte";
   import EditClient from "./EditClient.svelte";
   import Nav from "./Nav.svelte";
-  import PopupLong from './PopupLong.svelte';
+  import SuDisclaimer from './SuDisclaimer.svelte';
   import Modal from './Modal.svelte';
 
   import Cookie from "cookie-universal";

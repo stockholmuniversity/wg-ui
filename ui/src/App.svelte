@@ -10,6 +10,7 @@
   import EditClient from "./EditClient.svelte";
   import Nav from "./Nav.svelte";
   import SuDisclaimer from './SuDisclaimer.svelte';
+  import Dummy from './Dummy.svelte';
   import Modal from './Modal.svelte';
 
   import Cookie from "cookie-universal";
@@ -37,6 +38,7 @@ footer {
 
 <div class="mdc-typography">
 
+<!-- Disclaimer modal -->
   <Router url="{url}">
 
     <Nav user="{user}" />
@@ -60,8 +62,7 @@ footer {
     </p>
   </footer>
 
-<!-- Disclaimer modal -->
-  <Modal>
-    <Clients />
-  </Modal>
+<Modal>
+<Dummy />
+</Modal>
 </div>

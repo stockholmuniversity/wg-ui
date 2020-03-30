@@ -40,7 +40,7 @@ Exempel på skäl till dispens kan t. ex. vara att du inte har en bärbar dator 
 <p>
 När det gäller uppdateringar av operativsystem och virusskydd gäller samma krav för icke universitetsägda datorer som för datorer som ägs och förvaltas av universitetet. Användning av VPN-tjänsten på mobila enheter godkänns dock under förutsättning att de har ett uppdaterat operativsystem.
 </p>
-<p
+<p>
     <a href="https://arendehantering.su.se/AutoGen.aspx?page=194" target="_blank">Ansökan om dispens</a>
 </p>
 
@@ -64,7 +64,7 @@ An absolute <b>requirement</b> is that all devices that are connected must have 
 <p>
 When it comes to operating system updates and virus protection, the same requirements apply to non-university-owned computers as to computers owned and managed by the university. However, the use of the VPN service on mobile devices is approved provided they have an updated operating system.
 </p>
-<p
+<p>
     <a href="https://arendehantering.su.se/AutoGen.aspx?page=194" target="_blank">Application for exemption</a>
 </p>
 

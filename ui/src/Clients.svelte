@@ -4,6 +4,7 @@
   import Fab, {Label, Icon} from '@smui/fab';
   import { onMount } from 'svelte';
   import Client from './Client.svelte';
+  import { link,navigate } from "svelte-routing";
 
   export let user;
 
@@ -16,22 +17,9 @@
     console.log("Fetched clients", clients);
   }
 
-  async function handleNewClick(event) {
-    const res = await fetch(clientsUrl, {
-      method: "POST",
-    })
-      .then(response => {
-        return response.json()
-    })
-    .then(data => {
-      if (typeof data.Error != "undefined") {
-          console.log(data.Error);
-          alert(data.Error);
-    } else {
-        console.log("New client added", data);
-    }
-  });
-    await getClients();
+
+  function onCreateNewClient() {
+    navigate("/newclient", { replace: true });
   }
 
 
@@ -108,7 +96,7 @@ padding: 0;
       {/each}
 
       <div class="newClient">
-        <Fab color="primary" on:click={handleNewClick}><Icon class="material-icons">add</Icon></Fab>
+        <Fab color="primary" on:click={onCreateNewClient}><Icon class="material-icons">add</Icon></Fab>
       </div>
 
 

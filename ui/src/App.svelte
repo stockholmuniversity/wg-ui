@@ -9,6 +9,7 @@
   import Clients from "./Clients.svelte";
   import EditClient from "./EditClient.svelte";
   import Nav from "./Nav.svelte";
+  import NewClient from "./NewClient.svelte";
   import SuDisclaimer from './SuDisclaimer.svelte';
   import Dummy from './Dummy.svelte';
   import Modal from './Modal.svelte';
@@ -46,6 +47,7 @@ footer {
     <main role="main" class="container">
       <div>
         <Route path="client/:clientId" component="{EditClient}" />
+        <Route path="newclient/" component="{NewClient}" />
         <Route path="about" component="{About}" />
         <Route path="/"><Clients user="{user}" /></Route>
       </div>

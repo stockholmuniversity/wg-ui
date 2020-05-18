@@ -35,7 +35,7 @@ Ett absolut <b>krav</b> är att alla enheter som ansluts ska ha ett <b>uppdatera
     Endast i undantagsfall kan en dator som inte ägs eller förvaltas av universitetet anslutas och för det krävs ett dispensförfarande. Prefekt eller motsvarande ansöker om dispens hos IT-avdelningen genom att göra en beställning i serviceportalen. Där ska anledning till dispensen tydligt beskrivas.
 </p>
 <p>
-Exempel på skäl till dispens kan t. ex. vara att du inte har en bärbar dator som arbetsdator, eller att du är konsult som måste arbeta med ett annat företags dator. Undantagen gäller då en månad i taget, därefter måste ansökan förnyas.
+Exempel på skäl till dispens kan t. ex. vara att du inte har en bärbar dator som arbetsdator, eller att du är konsult som måste arbeta med ett annat företags dator. Undantagen gäller så länge <a href="https://www.su.se/corona" target="_blank">universitetets rekommendation</a> är att arbeta hemma.
 </p>
 <p>
 När det gäller uppdateringar av operativsystem och virusskydd gäller samma krav för icke universitetsägda datorer som för datorer som ägs och förvaltas av universitetet. Användning av VPN-tjänsten på mobila enheter godkänns dock under förutsättning att de har ett uppdaterat operativsystem.
@@ -58,7 +58,7 @@ An absolute <b>requirement</b> is that all devices that are connected must have 
     Only in exceptional cases can a computer that is not owned or managed by the university be connected and for that a dispensation procedure is required. The head of department or equivalent applies for an exemption from the IT department by placing an order in the service portal. There, the reason for the exemption should be clearly described.
 </p>
 <p>
-    Examples of reasons for dispensation may be e.g. be that you do not have a laptop as a work computer, or that you are a consultant who has to work with another company's computer. The exceptions then apply one month at a time, after which the application must be renewed.
+    Examples of reasons for dispensation may be e.g. be that you do not have a laptop as a work computer, or that you are a consultant who has to work with another company's computer. The exception is valid during the <a href="https://www.su.se/english/coronavirus" target="_blank">University's recommendation</a> to work from home.
 
 </p>
 <p>
